@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Poppins-R;
+    src: url(/Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-M;
+    src: url(/Fonts/Poppins/Poppins-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #0D110F;
+    font-family: Poppins-R;
+    transition: 0.5s ease-in-out;
+}
+body{
+    background-color: #FDD584;
+}
+#logo{
+    width: 60px;
+    margin: 50px;
+}
+.text{
+    font-family: Poppins-R;
+    font-size: 60px;
+    color: #0D110F;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text p{
+    font-size: 18px;
+    line-height: 100px;
+}
+nav{
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    font-size: 16px;
+}
+nav a{
+    padding: 10px;
+}
+a:hover{
+    font-family: Poppins-M;
+    transition: 0.5s ease-in-out;
+}
